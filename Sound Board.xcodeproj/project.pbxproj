@@ -13,6 +13,7 @@
 		80B215121E25F8A200703DB6 /* Sound_Board.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 80B215101E25F8A200703DB6 /* Sound_Board.xcdatamodeld */; };
 		80B215141E25F8A200703DB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80B215131E25F8A200703DB6 /* Assets.xcassets */; };
 		80B215171E25F8A200703DB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80B215151E25F8A200703DB6 /* LaunchScreen.storyboard */; };
+		80E68CF91E26081300A4EE1E /* SoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80E68CF81E26081300A4EE1E /* SoundViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		80B215131E25F8A200703DB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80B215161E25F8A200703DB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80B215181E25F8A200703DB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80E68CF81E26081300A4EE1E /* SoundViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				80B215091E25F8A200703DB6 /* AppDelegate.swift */,
 				80B2150B1E25F8A200703DB6 /* ViewController.swift */,
+				80E68CF81E26081300A4EE1E /* SoundViewController.swift */,
 				80B2150D1E25F8A200703DB6 /* Main.storyboard */,
 				80B215131E25F8A200703DB6 /* Assets.xcassets */,
 				80B215151E25F8A200703DB6 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80E68CF91E26081300A4EE1E /* SoundViewController.swift in Sources */,
 				80B215121E25F8A200703DB6 /* Sound_Board.xcdatamodeld in Sources */,
 				80B2150C1E25F8A200703DB6 /* ViewController.swift in Sources */,
 				80B2150A1E25F8A200703DB6 /* AppDelegate.swift in Sources */,
@@ -306,6 +310,7 @@
 				80B2151D1E25F8A200703DB6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
